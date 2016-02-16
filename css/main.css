@@ -1,0 +1,67 @@
+body{
+	font-family: OpenSans-Regular;
+}
+/* ICONOS Y MENUS */
+.icono{
+	width: 100px;
+}
+.lista{
+	display: inline;
+	list-style: none;
+	padding: 18px;
+}
+.nodeco{
+	text-decoration: none;
+	color: #A4A4A4;
+}
+a:hover{
+	color: #424242;
+
+}
+.linea{
+	border-right: 1px solid #A4A4A4;
+	padding-right: 10px;
+}
+/*IMAGEN= estas propiedades cortan la imagen*/
+.corte{
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+}
+.corte img{
+	margin: -20% 0 -20% 0;
+}
+/*FONDO GRIS Y TEXTO*/
+.bg{
+	width: 100%;
+	height: 200px;
+}
+/*ICONOS Y TEXTO*/
+.texto{
+	color: #A4A4A4;
+}
+/*IMAGEN DE FONDO, IMAGEN Y TEXTO*/
+#metodo{
+	background-image: url("../img/fondo.jpg");
+	height: 330px;
+	overflow: hidden;
+}
+#metodo img{
+	max-width: 100%;
+	margin: -5% 0;
+}
+.ico{
+	position: relative;
+	top: 80px;
+}
+.blanco{
+	color: white;
+}
+/*TEXTO*/
+.circulos{
+	width: 100px;
+}
+.texto2{
+	color: #A4A4A4;
+	font-size: small;
+}
